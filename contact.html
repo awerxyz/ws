@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="html_contact" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="body_contact">
+    <main>
+        <div class="contact_bgimg">
+
+            <header>
+                <nav>
+                    <ul id="contact_topline" class="contact_topline flex">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <form action="https://formsubmit.co/0c0f31bd6845c50937484bed7d6d95cd" method="POST">
+                <div class="title">
+                    <h2>CONTACT</h2>
+                </div>
+
+                <div class="half">
+                    <div class="item">
+                        <label for="name">NAME</label>
+                        <input type="text" id="name" name="name" placeholder="John" required>
+                    </div>
+                    <div class="item">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" placeholder="fakemail@email.com">
+                    </div>
+                </div>
+
+                <div class="full">
+                    <label for="message">MESSAGE</label>
+                    <textarea name="message" id="message" placeholder="Your Text" required></textarea>
+                </div>
+
+                <div class="action">
+                    <input type="submit" value="SEND MESSAGE">
+                    <input type="reset" value="RESET">
+                </div>
+            </form>
+        </div>
+</body>
+</html>
