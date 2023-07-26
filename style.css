@@ -57,7 +57,7 @@ nav ul li {
 
         /* HOVER EFFECT (topline) */
 
-a::after{
+.navunderline::after{
     content: '';
     width: 0%;
     height: 2px;
@@ -67,7 +67,7 @@ a::after{
     transition: 0.35s;
 }
 
-a:hover::after{
+.navunderline:hover::after{
     width: 100%;
 }
 
@@ -250,4 +250,10 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
         margin-bottom: 10px;
         width: 100%;
     }
+}
+
+/* SUCCESS.HTML */
+
+.getbacklink{
+    color: white;
 }

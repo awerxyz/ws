@@ -14,10 +14,10 @@
             <header>
                 <nav>
                     <ul id="contact_topline" class="contact_topline flex">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a class="navunderline" href="index.html">Home</a></li>
+                        <li><a class="navunderline" href="#">About</a></li>
+                        <li><a class="navunderline" href="#">Services</a></li>
+                        <li><a class="navunderline" href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </header>
@@ -26,6 +26,16 @@
                 <div class="title">
                     <h2>CONTACT</h2>
                 </div>
+
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Success page link -->
+                
+                <input type="hidden" name="_next" value="https://awerxyz.github.io/ws/success.html">
 
                 <div class="half">
                     <div class="item">
