@@ -1,3 +1,4 @@
+                                        /* INDEX.HTML */
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@ body {
     background-position: center;
 }
 
-        /* TOPLINE*/
+/* TOPLINE*/
 
 .topline{
         min-height: 2,99rem;
@@ -109,8 +110,7 @@ nav ul li {
         display: block;
     }
 }
-
-/* ----------------CONTACT.HTML-------------------*/
+                                        /* CONTACT.HTML */
 
 .html_contact{
     margin:0px;
@@ -252,7 +252,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
     }
 }
 
-/* SUCCESS.HTML */
+                                        /* SUCCESS.HTML */
 
 .getbacklink{
     color: white;

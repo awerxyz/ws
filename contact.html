@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Contact">
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/52818028eb.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
 </head>
+
 <body class="body_contact">
     <main>
         <div class="contact_bgimg">
 
             <header>
+                
+                <button class="mobile-nav-toggle"
+                        aria-controls="topline" aria-expanded="false">
+                        <i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
+                </button>
+
                 <nav>
-                    <ul id="contact_topline" class="contact_topline flex">
+                    <ul id="topline"
+                         data-visible="false" class="topline flex">
                         <li><a class="navunderline" href="index.html">Home</a></li>
-                        <li><a class="navunderline" href="#">About</a></li>
-                        <li><a class="navunderline" href="#">Services</a></li>
+                        <li><a class="navunderline" href="about.html">About</a></li>
+                        <li><a class="navunderline" href="project.html">Projects</a></li>
                         <li><a class="navunderline" href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
@@ -59,5 +69,8 @@
                 </div>
             </form>
         </div>
+
+    </main>
+    
 </body>
 </html>
