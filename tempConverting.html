@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="tempConverting.js" defer></script>
+</head>
+<body>
+    <label>Enter a temperature:</label><br>
+    <input type="text" id="textBox"><br>
+
+    <label>convert to:</label><br>
+
+    <input type="radio" id="cButton" name="unit">
+    <label>Celsius</label><br>
+
+    <input type="radio" id="fButton" name="unit"> <!--! since the radio buttons have the same name "unit" we can only select one of them-->
+    <label>Farenheit</label><br>
+
+    <button type="button" id="submitButton">submit</button><br>
+    <label id="tempLabel"></label> <!--! this is where it will display the converted temperature-->
+
+
+</body>
+</html>
